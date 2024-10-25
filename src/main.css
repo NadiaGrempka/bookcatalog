@@ -1,0 +1,46 @@
+body{
+    background-color: #594E36;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+h4{
+    font-style: italic;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#book-catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#adjust{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#add-book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 10em;
+    padding-right: 5em;
+    width: 20%;
+}
+
+#book-filter{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: black solid 1px;
+    margin-bottom: auto;
+}
